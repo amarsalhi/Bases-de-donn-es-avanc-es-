@@ -1,12 +1,12 @@
 # Bases de données avancées
 
-# l'objectif du projet
+# L'objectif du projet
  Ce projet consiste a travailler sur Deux déffirentes APIs qui ont un lien entre et avec lesquelles on va  construire une bases de données et arriver et emerger entre elles avec des requettes 
  
 # Les APIs:
 Les APIs choisies sont en Open Data et a trouver dans le site des APIs gouvernement : https://api.gouv.fr
 
-# 1ère API Découpage Administratif - (API Geo)
+# 1ère API : Découpage Administratif - (API Geo)
 
  Source de l'API :https://api.gouv.fr/les-api/api-geo
  
@@ -21,7 +21,7 @@ En intégrant l'API dans votre système d'information, vous pouvez notamment :
    rechercher un département par son nom
    rechercher une région par son nom
 
-# 2ème API La Bonne Alternance - (API LBA)
+# 2ème API : La Bonne Alternance - (API LBA)
 
  Source de l'API: https://labonnealternance.apprentissage.beta.gouv.fr/api-docs/swagger.json
  
