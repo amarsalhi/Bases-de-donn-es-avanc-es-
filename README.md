@@ -45,3 +45,43 @@ Selon l’API sélectionnée, ces données sont récupérables pour :
    un secteur professionnel (domaine ou ensemble de domaines professionnels ou tous domaines professionnels)
    un métier ou ensemble de métiers définis
  
+ Aperçu de l'APi
+
+1
+Présentation du code:
+
+On a créé une fonction nommée apiToDatabase qui regroupe toutes les étapes a suivre pour obtenir le résultat final, Elle retourne à la fin un dataframe et on le compare à la base de données crée . 2
+Aperçu du dictionnaire obtenu :
+3
+Aperçu du dataframe obtenu :
+Capture
+
+Après avoir récupérer les données de l’api on va procéder à la création de la base de données dans sql server
+
+Le code suivant va nous permettre de réaliser cette étape:
+
+5
+
+Ensuite on va créer une table avec les colonnes de l’api comme présenté ci-dessous
+
+6
+
+
+Finalement on va remplir la base de données crée précédemment grâce à une boucle qui transmettra toutes les données dans la base de données.
+
+La raquette qui remplit la base de données:
+
+cursor.executemany("INSERT INTO region (nom, code,codeDepartement,codeRegion,codesPostaux,populationR) VALUES (?,?,?,?,?,?)", Table)
+7
+
+La fonction conv:
+
+Cette fonction va nous aider à convertir certaine colonnes afin de faciliter l’insertion dans la base de données et éviter certaines erreurs.
+8
+
+A la fin de l’exécution on peut vérifier notre base de données dans sql server
+
+
+9
+
+Présentation du fonctionnement final :
