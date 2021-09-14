@@ -20,6 +20,30 @@ En intégrant l'API dans votre système d'information, vous pouvez notamment :
    rechercher une communes par nom, code postal ou coordonnées géographiques
    rechercher un département par son nom
    rechercher une région par son nom
+   
+   L'apercu de l'API
+   ![image](https://user-images.githubusercontent.com/85731154/133302724-e44c2c20-4c1d-4e85-945d-7fb5d4dd57e3.png)
+
+Présentation du code:
+
+On a créé une fonction nommée apiToDatabase qui regroupe toutes les étapes a suivre pour obtenir le résultat final, Elle retourne à la fin un dataframe et on le compare à la base des données crées
+
+![image](https://user-images.githubusercontent.com/85731154/133302907-b34d56ed-515f-4073-b3b0-7773dcfae5dd.png)
+
+Le dictionaire Obtenu :
+
+![image](https://user-images.githubusercontent.com/85731154/133304069-900c0f91-f722-4ee5-aedf-852715f9587a.png)
+
+les résultats :
+
+![image](https://user-images.githubusercontent.com/85731154/133304208-57ccd7a1-0535-4c8b-a808-d15b368c96c8.png)
+
+Après avoir récupérer les données de l’api on va procéder à la création de la base de données dans sql server
+
+Le code suivant va nous permettre de réaliser cette étape:
+
+![image](https://user-images.githubusercontent.com/85731154/133304299-84469323-f7d9-49ba-8606-380c62e39845.png)
+
 
 # 2ème API : La Bonne Alternance - (API LBA)
 
