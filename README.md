@@ -88,3 +88,8 @@ Selon l’API sélectionnée, ces données sont récupérables pour :
    un secteur géographique (point géographique, département, région ou France entière)
    un secteur professionnel (domaine ou ensemble de domaines professionnels ou tous domaines professionnels)
    un métier ou ensemble de métiers définis
+   
+   Apercu de l'API
+   ![image](https://user-images.githubusercontent.com/85731154/133306271-0296c357-fc71-48ec-8079-1c4b57dec2ee.png)
+
+
