@@ -91,5 +91,7 @@ Selon l’API sélectionnée, ces données sont récupérables pour :
    
    Apercu de l'API
    ![image](https://user-images.githubusercontent.com/85731154/133306271-0296c357-fc71-48ec-8079-1c4b57dec2ee.png)
+   
 
+ ![image](https://user-images.githubusercontent.com/85731154/133309377-913d49e9-19a4-4ea0-ae5a-192242cf541e.png)
 
