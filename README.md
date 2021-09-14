@@ -44,7 +44,27 @@ Le code suivant va nous permettre de réaliser cette étape:
 
 ![image](https://user-images.githubusercontent.com/85731154/133304299-84469323-f7d9-49ba-8606-380c62e39845.png)
 
+ Ensuite on va créer une table avec les colonnes de l’api comme présenté ci-dessous 
+ 
+ ![image](https://user-images.githubusercontent.com/85731154/133304708-897723e9-deb7-4899-8d18-b3c583a74c43.png)
 
+Finalement on va remplir la base de données crée précédemment grâce à une boucle qui transmettra toutes les données dans la base de données.
+La raquette qui remplit la base de données:
+
+cursor.executemany("INSERT INTO region (nom, code,codeDepartement,codeRegion,codesPostaux,populationR) VALUES (?,?,?,?,?,?)", Table)
+![image](https://user-images.githubusercontent.com/85731154/133304846-b72e4923-51b7-4a5d-8bca-3c2ecadedb29.png)
+
+La fonction conv:
+
+Cette fonction va nous aider à convertir certaine colonnes afin de faciliter l’insertion dans la base de données et éviter certaines erreurs.
+
+![image](https://user-images.githubusercontent.com/85731154/133304912-921a43d4-35fc-4493-bed2-57e958439857.png)
+
+ A la fin de l’exécution on peut vérifier notre base de données dans sql server 
+ 
+ ![image](https://user-images.githubusercontent.com/85731154/133305044-f6a405d9-7b36-4ec3-af54-7ca57405cb8e.png)
+
+ 
 # 2ème API : La Bonne Alternance - (API LBA)
 
  Source de l'API: https://labonnealternance.apprentissage.beta.gouv.fr/api-docs/swagger.json
